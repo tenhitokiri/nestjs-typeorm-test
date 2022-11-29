@@ -1,5 +1,5 @@
 import { dbConfig } from './../../shared/infrastructure/persistance/postgreSQL/PostgresDataSource';
-import { User } from './user.entity';
+import { User } from './entities/user.entity';
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { Repository } from 'typeorm';
 import { CreateUserDto } from './dto/create-user.dto';
